@@ -106,10 +106,23 @@ a.boxclose{
 	vertical-align:middle;
 }
 .boxclose span{
-	width:58px;
-	height:73px;
+	width: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background: hotpink;
+	border-radius: 50%;
+	display: flex;
+	/* align-items: center; */
+	/* align-content: center; */
+	justify-content: center;
+	flex-direction: column;
+	/* height: 30px; */
+	/* background-size: 100% !importan
+	/* width:58px;
+	height:73px; */
 	display:inline-block;
-	background: url(../images/into.png) no-repeat 0px 0px;
+	/* background: url(../images/into.png) no-repeat 0px 0px; */
 }
 /*--/header--*/
 /*--banner--*/
@@ -1852,11 +1865,11 @@ border:none;
 	  min-height: 96px;
 	}
 	.boxclose span {
-	  width: 49px;
-	  height: 47px;
+	  /* width: 49px;
+	  height: 47px; */
 	  }
 	a.boxclose {
-	  right: 92px;
+	  right: 50px;
 	}
 	.sam-head h3 {
 	  font-size: 32px;
@@ -2260,9 +2273,9 @@ border:none;
 	  margin: 0 5px;
 	}
 	.boxclose span {
-	  width: 30px;
+	  /* width: 30px;
 	  height: 30px;
-	  background-size: 100% !important;
+	  background-size: 100% !important; */
 	}
 	a.boxclose {
 	  top: 25px;
