@@ -4,7 +4,18 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-
+.top-gallery {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+.form_content {
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .skill-tech {
 	display: inline-flex;
     background: white;
@@ -77,11 +88,11 @@ margin-top:50px;
 }
 a.boxclose{
 	cursor: pointer;
-	text-align: center;
+	/* text-align: center;
 	display: block;
 	position: absolute;
 	top: 19px;
-	right: 290px;
+	right: 290px; */
  }
  #activator {
 }
@@ -281,6 +292,8 @@ letter-spacing: 18px;
 }
 .skill-grids{
 margin-top:50px;
+display: flex;
+justify-content: center;
 }
 .skills-grid p{
 margin:20px 0 0 0;
@@ -374,7 +387,10 @@ border-radius: 6px;
 border-bottom: 2px solid #c3c3c3;
 }
 .edu-grids {
-  margin-top: 50px;
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .edu-grid{
 position:relative;
@@ -382,7 +398,7 @@ position:relative;
 .edu-grid img{
 position:absolute;
 top: 25%;
-left: 40%;
+left: 47%;
 }
 /*--//education--*/
 /*--work--*/
@@ -566,9 +582,11 @@ transition: all 0.7s ease;
 }
 .gallery-grids {
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 .button:hover{
- border: 2px solid #000;
+ border: 2px solid #ff69b4;
 }
 .button {
   border: 2px solid #fff;
@@ -1956,7 +1974,7 @@ border:none;
 	.banner-info {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 	  /* width: 78%;
 	  margin: 100px auto 0 auto; */
 	}
@@ -2026,7 +2044,7 @@ border:none;
 	}  
 	.edu-grid img {
 	  top: 25%;
-	  left: 39%;
+	  left: 46%;
 	} 
 	.edu-grid-master h3 {
 	  font-size: 16px;
@@ -2464,7 +2482,7 @@ border:none;
 	}
 	.edu-grid img {
 	  top: 23%;
-	  left: 36%;
+	  left: 43%;
 	}
 	.gallery-section {
 	  padding: 68px 0 0px 0;
@@ -3060,7 +3078,7 @@ border:none;
 	}
 	.edu-grid img {
 	  top: 30%;
-	  left: 42%;
+	  left: 49%;
 	}
 	.work-info h3,.ser-info h3,.gallery-section h3,.process h3,.testimonials h3 ,.blog-info h3,.contact-info h3,.sam-head h3{
 	  font-size: 28px;
@@ -3337,7 +3355,7 @@ border:none;
 }
 .edu-grid img {
   top: 27%;
-  left: 38%;
+  left: 45%;
 }
 .services-back {
   min-height: 18px;
